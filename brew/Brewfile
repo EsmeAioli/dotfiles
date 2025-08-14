@@ -1,0 +1,20 @@
+# -------------------------
+# Bluefin Brewfile
+# Note: Follows Bluefin devtools policy — brew handles updates where possible
+# -------------------------
+
+# --- Core utilities ---
+brew "lsd"
+brew "tree"
+brew "just"
+
+# --- Development tools ---
+brew "go"          # TODO: Consider installing this in container instead of host
+
+# --- Kubernetes tools ---
+# (Full list in kubernetes Brewfile)
+brew "kubectx"     # Handy context/namespace switcher for kubectl
+
+# --- Shell enhancements ---
+brew "atuin"       # Installed via brew (not upstream script) to keep updates in brew's control
+brew "bash-preexec" # Preferred over ble.sh — matches upstream automated installer
