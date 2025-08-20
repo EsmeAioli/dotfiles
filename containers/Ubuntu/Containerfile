@@ -1,0 +1,28 @@
+# Containerfile for Esme’s Ubuntu dev container
+FROM ubuntu:22.04
+
+LABEL maintainer="Esme Lim <esmethedev@gmail.com>"
+LABEL org.opencontainers.image.description="A base Ubuntu container for Esme's dev environments, designed for use with Distrobox"
+
+# Avoids frontend prompts during apt install
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Core packages to get going
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    git \
+    unzip \
+    zsh \
+    neovim \
+    build-essential \
+    ca-certificates \
+    gnupg \
+    lsb-release \
+ && rm -rf /var/lib/apt/lists/*
+
+# Optional: create a non-root user (if not relying on host bind)
+# ARG USER=esme
+# RUN useradd -m ${USER}
+
+# Optional: set up zsh as default shell
+CMD [ "zsh" ]

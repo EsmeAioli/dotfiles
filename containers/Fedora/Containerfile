@@ -1,0 +1,26 @@
+# Fedora container for Esme’s dev workflows
+FROM fedora:latest
+
+LABEL maintainer="Esme Lim <esmethedev@gmail.com>"
+LABEL org.opencontainers.image.description="A Fedora-based dev container for Distrobox, tailored to Esme's setup"
+
+
+# Set environment variables
+ENV LANG=en_GB.UTF-8 \
+    LC_ALL=en_GB.UTF-8 \
+    USER=esme
+
+RUN dnf install -y \
+    curl \
+    git \
+    zsh \
+    neovim \
+    make \
+    gcc \
+    ca-certificates \
+    tar \
+    util-linux-user \
+ && dnf clean all
+
+# Optional: switch to zsh
+CMD [ "bash" ]

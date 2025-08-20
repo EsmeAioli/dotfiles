@@ -15,13 +15,13 @@ fi
 
 # Default app lists
 DEFAULT_FLATPAK_APPS="\
-com.spotify.Client.desktop \
-dev.k8slens.OpenLens.desktop \
-com.axosoft.GitKraken.desktop \
-org.gnome.Boxes.desktop \
-org.telegram.desktop.desktop \
-com.slack.Slack.desktop \
-com.discordapp.Discord.desktop \
+com.spotify.Client \
+dev.k8slens.OpenLens \
+com.axosoft.GitKraken \
+org.gnome.Boxes \
+org.telegram.desktop \
+com.slack.Slack \
+com.discordapp.Discord \
 "
 
 # DEFAULT_RPM_APPS="\
