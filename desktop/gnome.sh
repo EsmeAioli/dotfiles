@@ -3,7 +3,7 @@
 # desktop/gnome.sh — GNOME UI preferences (themes, favourites, layout)
 
 set -euo pipefail
-info() { echo -e "\033[1;34m[gnome]\033[0m $*"; }
+info() { echo -e "\033[1;34m[Desktop/gnome.sh]\033[0m $*"; }
 
 # Replace this with your current list — run this on a configured machine to get it:
 # gsettings get org.gnome.shell favorite-apps

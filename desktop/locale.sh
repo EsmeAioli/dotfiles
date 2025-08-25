@@ -3,7 +3,7 @@
 
 
 set -euo pipefail
-info() { echo -e "\033[1;34m[locale]\033[0m $*"; }
+info() { echo -e "\033[1;34m[Desktop/locale.sh]\033[0m $*"; }
 
 
 info "Setting system locale to en_GB.UTF-8..."

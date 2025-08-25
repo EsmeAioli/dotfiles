@@ -10,7 +10,7 @@
 # executable scripts into `shell/scripts/` for clarity.
 
 set -euo pipefail
-info() { echo -e "\033[1;34m[starship]\033[0m $*"; }
+info() { echo -e "\033[1;34m[Desktop/starship.sh]\033[0m $*"; }
 
 # CONFIG
 DEFAULT_REPO_URL="https://github.com/EsmeAioli/pastel-powerline-kate.git"

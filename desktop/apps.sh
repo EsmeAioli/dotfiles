@@ -4,7 +4,7 @@
 
 
 set -euo pipefail
-info() { echo -e "\033[1;34m[apps]\033[0m $*"; }
+info() { echo -e "\033[1;34m[Desktop/apps.sh]\033[0m $*"; }
 
 
 # Load overrides if available

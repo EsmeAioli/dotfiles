@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-info() { echo -e "\033[1;34m[git]\\033[0m $*"; }
+info() { echo -e "\033[1;34m[Desktop/git.sh]\\033[0m $*"; }
 
 info "Ensuring minimal host Git setup..."
 
