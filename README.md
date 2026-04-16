@@ -1,10 +1,10 @@
-# dotfiles 
+# dotfiles
 
 Cloud‑native configurations from a desktop Linux nerd to make Esme’s machines feel like home 🙂
 
-## About 
+## About
 
-This repo is a collection of dotfiles, scripts, and configuration bits for a Bluefin‑based Linux desktop; built for replicability, portability in mind, and designed with Esme's infra nerd care and sensibilities. 
+This repo is a collection of dotfiles, scripts, and configuration bits for a Bluefin‑based Linux desktop; built for replicability, portability in mind, and designed with Esme's infra nerd care and sensibilities.
 
 The tools and optimisations reflect Esme's hobbyist adventures in nerdy spaces, and function a little more like a passport -- stamps of lovely nerds and ideas she's appreciated in her spare time.
 
@@ -12,7 +12,6 @@ While the scripts were designed to work across most UNIX and UNIX-like environme
 
 - Lenovo Thinkpad T480s
 - running the lovely immutable [Project Bluefin](https://projectbluefin.io/)
-
 
 ## Repo Structure
 
@@ -34,6 +33,7 @@ git clone https://github.com/esmeaioli/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./bootstrap.sh
 ```
+
 ## License
 
 MIT license
