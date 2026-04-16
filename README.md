@@ -15,6 +15,8 @@ While the scripts were designed to work across most UNIX and UNIX-like environme
 
 ## Repo Structure
 
+#TODO: Figure out Nix ;)
+
 ```bash
 dotfiles/
 ├── brew/           # Brewfile and package sets
