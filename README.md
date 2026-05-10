@@ -34,6 +34,11 @@ cd ~/dotfiles
 ./bootstrap.sh
 ```
 
+## FAQ 
+
+Q: Why not Nix? 
+A: I might if my configurations and usecases get more complex :) 
+
 ## License
 
 MIT license
