@@ -1,20 +1,37 @@
 # -------------------------
 # Bluefin Brewfile
-# Note: Follows Bluefin devtools policy — brew handles updates where possible
+# Note: CLIs only!
 # -------------------------
 
-# --- Core utilities ---
+# --- Core Terminal utilities --- 
 brew "lsd"
 brew "tree"
 brew "just"
 
-# --- Development tools ---
-brew "go"          # TODO: Consider installing this in container instead of host
+brew "btop" 
+
+brew "superfile" #May have its own config as well!  
+brew "tmux" #SOme notes: tmux, neovim and ghostty all have their own configurations; ghostty is a flatpak that's not currently in the store yet 
+brew "Valkyrie00/homebrew-bbrew/bbrew"
+
+brew "claude-code"
+
+# --- Zsh Addons --- 
+brew "zsh-completions"
+brew "eza" #Plugin dependency 
+brew "bat" #Plugin dependency 
+
+# --- Bash Addons ---
+brew "atuin"
+brew "bash-preexec" # Preferred over ble.sh — matches upstream automated installer
+
+# --- DevOps Dev tools ---
+brew "act" #Github Actions local testing 
+
+# --- Docker --- 
+brew "oxker" #Docker TUI 
 
 # --- Kubernetes tools ---
 # (Full list in kubernetes Brewfile)
-brew "kubectx"     # Handy context/namespace switcher for kubectl
-
-# --- Shell enhancements ---
-brew "atuin"       # Installed via brew (not upstream script) to keep updates in brew's control
-brew "bash-preexec" # Preferred over ble.sh — matches upstream automated installer
+brew "kubectx"
+brew "k9s"
