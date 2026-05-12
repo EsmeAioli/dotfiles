@@ -52,6 +52,7 @@ fi
 info "Linking shell configuration..."
 mkdir -p "${HOME}/.config"
 ln -sf "${SHELL_DIR}/.bashrc" "${HOME}/.bashrc"
+ln -sf "${SHELL_DIR}/.zshec" "${HOME}/.zshrc"
 ln -sf "${SHELL_DIR}/.bash_aliases" "${HOME}/.bash_aliases"
 # Add more as needed
 
