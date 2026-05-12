@@ -17,6 +17,7 @@ brew "Valkyrie00/homebrew-bbrew/bbrew"
 brew "claude-code"
 
 # --- Zsh Addons --- 
+brew "fzf"
 brew "zsh-completions"
 brew "eza" #Plugin dependency 
 brew "bat" #Plugin dependency 
@@ -32,6 +33,7 @@ brew "act" #Github Actions local testing
 brew "oxker" #Docker TUI 
 
 # --- Kubernetes tools ---
-# (Full list in kubernetes Brewfile)
+brew "kubernetes-cli"
 brew "kubectx"
 brew "k9s"
+brew "siderolabs/tap/talosctl"
