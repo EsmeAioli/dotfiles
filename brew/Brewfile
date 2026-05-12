@@ -8,7 +8,8 @@ brew "lsd"
 brew "tree"
 brew "just"
 
-brew "btop" 
+brew "btop"
+brew "lnav"
 
 brew "superfile" #May have its own config as well!  
 brew "tmux" #SOme notes: tmux, neovim and ghostty all have their own configurations; ghostty is a flatpak that's not currently in the store yet 
