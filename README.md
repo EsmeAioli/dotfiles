@@ -34,10 +34,11 @@ cd ~/dotfiles
 ./bootstrap.sh
 ```
 
-## FAQ 
+## FAQ
 
-Q: Why not Nix? 
-A: I might if my configurations and usecases get more complex :) 
+Q: Why not Nix?
+
+A: I might if my configurations and usecases get more complex :)
 
 ## License
 
